@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>card</title>
+    <link href="./css/card.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+<div class="product-card">
+    <div class="logo-cart">
+        <img src="img/logo-nike-1536.png" alt="logo" >
+        <i class='bx bx-shopping-bag'></i>
+    </div>
+
+    <div class="main-images">
+        <img id="blue" class="blue active" src="img/blue.png" alt="blue">
+        <img id="pink" class="pink" src="img/pink.png" alt="pink">
+        <img id="yellow" class="yellow " src="img/yellow.png" alt="yellow">
+    </div>
+    <div class="shoe-details" >
+        <span class="shoe_name"> NIKE AIR MAX</span>
+        <p> Lonrem ipsum dolor sit ament, consectetur adipisicing elit.Eum,ea,ducimus</p>
+        <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+        </div>
+        <div class="color-price">
+            <div class="color-option">
+                <span class="color">Colour: </span>
+                <div class="circles">
+                    <span class="circle blue active" id="blue"></span>
+                    <span class="circle pink" id="pink"></span>
+                    <span class="circle yellow" id="yellow"></span>
+                </div>
+            </div>
+            <div class="price">
+                <span class="price_num">$99.99</span>
+                <span class="price_letter">Nine dollar only</span>
+            </div>
+        </div>
+        <div class="button">
+            <div class="button-layer"></div>
+            <a href="#">
+                <button id="btn">Add To Cart</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    document.addEventListener("click", (event)=>{
+        var obj = event.target;
+        console.log(obj.classList.contains("circle"));
+        if(obj.classList.contains("circle")) {
+            obj.parentElement.querySelector('.active').classList.remove("active");
+            obj.classList.add("active");
+            document.querySelector(`.main-images #${obj.id}`).parentElement.querySelector('.active').classList.remove("active");
+            document.querySelector(`.main-images #${obj.id}`).classList.add("active");
+        }
+    });
+</script>
+
+</body>
+</html>
