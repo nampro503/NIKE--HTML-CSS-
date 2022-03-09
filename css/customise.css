@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-.navbar {
-    background-color: rgba(255, 255, 255, 0.9) !important;
-    height: 80px;
 
+.navbar {
+    background-color: rgba(245, 245, 245, 0.9) !important;
+    height: 80px;
 }
 .navbar li a {
     color: #262626 !important;
-
 }
 .nav-item{
     padding-right: 15px;
 }
 .navbar li a:hover {
-    color: rgba(180, 180, 180, 0.9) !important;
+    color: rgba(96, 96, 96, 0.9) !important;
 }
 .carousel-inner img {
     width: 100%;
@@ -97,9 +96,10 @@ hr.light {
 }
 .content1{
     text-align: center;
-    padding-top: 20px;
-
+    padding-top: 30px;
+    margin-bottom: 20px;
 }
+
 /*Media Query*/
 @media (max-width: 992px){
     .carousel-caption {
@@ -130,7 +130,6 @@ hr.light {
         font-size: 95%;
         padding: 8px 14px;
     }
-
 }
 @media (max-width: 576px){
     .carousel-caption {
@@ -170,6 +169,9 @@ section {
 
 }
 .footer-distributed{
+
+    background-color: #353636;
+
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -315,6 +317,7 @@ section {
     width: 35px;
     height: 35px;
     cursor: pointer;
+
     border-radius: 2px;
 
     font-size: 20px;
@@ -350,24 +353,21 @@ section {
 }
 /*footer*/
 
-
-
-
 /*card*/
- .cards{
-     display: flow-root;
-     justify-content: center;
-     align-items: center;
-     margin: 20px;
-     width: 100%;
- }
- .item{
-     width: 28%;
-     margin: 10px;
-     float: left;
-     margin-left: 4%;
-     margin-bottom: 2%;
- }
+.cards{
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.item{
+    width: 28%;
+    margin: 10px;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=100;0,400Roboto:ital,wght@0,;0,500;0,700;1,100;1,300&display=swap');*/
 *{
     margin: 0;
@@ -413,12 +413,11 @@ section {
 .product-card .main-images{
     position: relative;
     height: 210px;
-
 }
 .product-card .main-images img{
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 290px;
     object-fit: cover;
 
     left:12px;
@@ -433,7 +432,7 @@ section {
 .product-card .shoe-details .shoe_name{
     font-size: 24px;
     font-weight: 500;
-    color: #161616;
+    color: #e9b88b;
 }
 .product-card .shoe-details p{
     font-size: 12px;
@@ -531,13 +530,7 @@ section {
     border-radius: 25px;
 }
 #btn:hover{
-    background: #00aced;
+    background:#FF0000;
     cursor: pointer;
     border: none;
 }
-.frame{
-    margin-top: 40px;
-    text-align: center;
-}
-
-
