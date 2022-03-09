@@ -358,7 +358,7 @@ section {
      display: flow-root;
      justify-content: center;
      align-items: center;
-     margin: 20px;
+     padding-left: 20px;
      width: 100%;
  }
  .item{
