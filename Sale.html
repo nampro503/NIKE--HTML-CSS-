@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sale</title>
+    <!-- Import Boostrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/home.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300&family=EB+Garamond:wght@400;500;600&family=Poppins:wght@100;300;400;600&family=Raleway:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-branch" href="#">
+            <img src="./img/logo-nike-1536.png" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto" style="padding-right: 225px">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Customise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SNKRS</a>
+                </li>
+            </ul>
+            <div class="input-group rounded" style="width: 250px">
+                <input style="height: 35px" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <span style="background-color: #f8f9fa" class="input-group-text border-0" id="search-addon">
+
+                    <i class="fas fa-search"></i>
+                 </span>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<!-- Carousel -->
+
+<!--Main - Content-->
+<main class="main-content">
+
+    <div>
+        <h4 style="text-indent: 80px;padding-bottom: 20px">BOOM SALE</h4>
+        <!-- hinh ơ tren card-->
+        <img src="./img/sale.jpg" width="100%" height="800" style=" padding-right: 80px; padding-left: 80px; object-fit: cover">
+    </div>
+
+    <!--    card-->
+    <div class="cards">
+        <h5 style="margin-left:4%;margin-top: 50px">/ FEATURED PRODUCTS.</h5>
+        <div class="item">
+            <div class="product-card">
+                <div class="logo-cart">
+                    <img src="img/logo-nike-1536.png" alt="logo" >
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="main-images">
+                    <img id="blue" class="blue active" src="img/11.png" alt="blue">
+                    <img id="pink" class="pink" src="img/12.png" alt="pink">
+                    <img id="yellow" class="yellow " src="img/13.png" alt="yellow">
+                </div>
+                <div class="shoe-details" >
+                    <span class="shoe_name">NIKE AIR ZOOM PEGASUS</span>
+                    <p> Men road running shoes </p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="color-price">
+                        <div class="color-option">
+                            <span class="color">Colour: </span>
+                            <div class="circles">
+                                <span class="circle blue active" id="blue"></span>
+                                <span class="circle pink" id="pink"></span>
+                                <span class="circle yellow" id="yellow"></span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="price_num">$99.99</span>
+                            <span class="price_letter">Nine dollar only</span>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="button-layer"></div>
+                        <a href="#">
+                            <button id="btn">Add To Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="product-card">
+                <div class="logo-cart">
+                    <img src="img/logo-nike-1536.png" alt="logo" >
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="main-images">
+                    <img id="blue1" class="blue active" src="img/22.png" alt="blue">
+                    <img id="pink1" class="pink" src="img/24.png" alt="pink">
+                    <img id="yellow1" class="yellow " src="img/23.png" alt="yellow">
+                </div>
+                <div class="shoe-details" >
+                    <span class="shoe_name"> NIKE AIR JORDAN 1 LOW</span>
+                    <p> Men easy on/off road running shoes</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="color-price">
+                        <div class="color-option option1">
+                            <span class="color">Colour: </span>
+                            <div class="circles">
+                                <span class="circle blue active" id="blue1"></span>
+                                <span class="circle pink" id="pink1"></span>
+                                <span class="circle yellow" id="yellow1"></span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="price_num">$78.00</span>
+                            <span class="price_letter">Seventy eighty dollar only</span>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="button-layer"></div>
+                        <a href="#">
+                            <button id="btn">Add To Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="product-card">
+                <div class="logo-cart">
+                    <img src="img/logo-nike-1536.png" alt="logo" >
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="main-images">
+                    <img id="blue2" class="blue active" src="img/33.png" alt="blue">
+                    <img id="pink2" class="pink" src="img/31.png" alt="pink">
+                    <img id="yellow2" class="yellow " src="img/32.png" alt="yellow">
+                </div>
+                <div class="shoe-details" >
+                    <span class="shoe_name"> NIKE WILDSHORSE 7</span>
+                    <p> Men Trail Running Shoes</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="color-price">
+                        <div class="color-option option2">
+                            <span class="color">Colour: </span>
+                            <div class="circles">
+                                <span class="circle blue active" id="blue2"></span>
+                                <span class="circle pink" id="pink2" ></span>
+                                <span class="circle yellow" id="yellow2" ></span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="price_num">$85.00</span>
+                            <span class="price_letter">Eighty five dollar only</span>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="button-layer"></div>
+                        <a href="#">
+                            <button id="btn">Add To Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="product-card">
+                <div class="logo-cart">
+                    <img src="img/logo-nike-1536.png" alt="logo" >
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="main-images">
+                    <img id="blue4" class="blue active" src="img/43.png" alt="blue">
+                    <img id="pink4" class="pink" src="img/41.png" alt="pink">
+                    <img id="yellow4" class="yellow " src="img/42.png" alt="yellow">
+                </div>
+                <div class="shoe-details" >
+                    <span class="shoe_name"> NIKE FLEX PLUS</span>
+                    <p> Kid road running shoes</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="color-price">
+                        <div class="color-option">
+                            <span class="color">Colour: </span>
+                            <div class="circles">
+                                <span class="circle blue active" id="blue4"></span>
+                                <span class="circle pink" id="pink4"></span>
+                                <span class="circle yellow" id="yellow4"></span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="price_num">$78.00</span>
+                            <span class="price_letter">Seventy eight dollar only</span>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="button-layer"></div>
+                        <a href="#">
+                            <button id="btn">Add To Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="product-card">
+                <div class="logo-cart">
+                    <img src="img/logo-nike-1536.png" alt="logo" >
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="main-images">
+                    <img id="blue5" class="blue active" src="img/51.png" alt="blue">
+                    <img id="pink5" class="pink" src="img/52.png" alt="pink">
+                    <img id="yellow5" class="yellow " src="img/53.png" alt="yellow">
+                </div>
+                <div class="shoe-details" >
+                    <span class="shoe_name"> NIKE FREE RUN</span>
+                    <p> Athletics distance spikes</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="color-price">
+                        <div class="color-option option1">
+                            <span class="color">Colour: </span>
+                            <div class="circles">
+                                <span class="circle blue active" id="blue5"></span>
+                                <span class="circle pink" id="pink5"></span>
+                                <span class="circle yellow" id="yellow5"></span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="price_num">$99.00</span>
+                            <span class="price_letter">Nine ty night dollar only</span>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="button-layer"></div>
+                        <a href="#">
+                            <button id="btn">Add To Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="product-card">
+                <div class="logo-cart">
+                    <img src="img/logo-nike-1536.png" alt="logo" >
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="main-images">
+                    <img id="blue6" class="blue active" src="img/61.png" alt="blue">
+                    <img id="pink6" class="pink" src="img/62.png" alt="pink">
+                    <img id="yellow6" class="yellow " src="img/63.png" alt="yellow">
+                </div>
+                <div class="shoe-details" >
+                    <span class="shoe_name"> NIKE AIR ZOOM RIVAL FLY</span>
+                    <p> Men road running shoes</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="color-price">
+                        <div class="color-option option2">
+                            <span class="color">Colour: </span>
+                            <div class="circles">
+                                <span class="circle blue active" id="blue6"></span>
+                                <span class="circle pink" id="pink6" ></span>
+                                <span class="circle yellow" id="yellow6" ></span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="price_num">$98.00</span>
+                            <span class="price_letter">Nine ty eight dollar only</span>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="button-layer"></div>
+                        <a href="#">
+                            <button id="btn">Add To Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--    card-->
+
+</main>
+<!-- Footer -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="./img/logo%20footer.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer -->
+
+<script type="text/javascript">
+    document.addEventListener("click", (event)=>{
+        var obj = event.target;
+        console.log(obj.classList.contains("circle"));
+        if(obj.classList.contains("circle")) {
+            obj.parentElement.querySelector('.active').classList.remove("active");
+            obj.classList.add("active");
+            document.querySelector(`.main-images #${obj.id}`).parentElement.querySelector('.active').classList.remove("active");
+            document.querySelector(`.main-images #${obj.id}`).classList.add("active");
+        }
+    });
+</script>
+</body>
+</html>
