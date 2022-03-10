@@ -351,12 +351,12 @@ section {
 }
 /*footer*/
 
-/*card*/
+
 .cards{
     display: flow-root;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
+    padding-left: 20px;
     width: 100%;
 }
 .item{
@@ -411,6 +411,7 @@ section {
 .product-card .main-images{
     position: relative;
     height: 210px;
+
 }
 .product-card .main-images img{
     position: absolute;
@@ -531,4 +532,8 @@ section {
     background: #00aced;
     cursor: pointer;
     border: none;
+}
+.frame{
+    margin-top: 40px;
+    text-align: center;
 }
